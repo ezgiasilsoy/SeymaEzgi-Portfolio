@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import sunIcon from "../assets/icons8-sun-32.png";
-import moonIcon from "../assets/icons8-moon-24.png";
+import sunIcon from "../../public/assets/icons8-sun-32.png";
+import moonIcon from "../../public/assets/icons8-moon-24.png";
 
 function DarkModeToggle() {
   const [dark, setDark] = useState(false);

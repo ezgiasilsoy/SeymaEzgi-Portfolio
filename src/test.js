@@ -102,7 +102,7 @@ const data = {
       text1: "I make the web feel alive.",
       description:
         "I’m a passionate Frontend Developer who loves bringing designs to life. I create interactive, responsive, and visually engaging web experiences that leave a lasting impression. Every project I work on is designed to be intuitive, user-focused, and memorable. My goal is simple — make the web feel alive, one component at a time.",
-      profileImage: "/src/assets/ProfileImage.png",
+      profileImage: "/assets/ProfileImage.png",
       socials: [
         {
           logo: "/assets/LinkedIn.png",

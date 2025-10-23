@@ -73,7 +73,7 @@ export default function Hero() {
         <img
           src={heroSection.profileImage}
           alt="Profile"
-          className="rounded-2xl shadow-lg w-[400px] h-[280px] object-cover"
+          className="rounded-2xl shadow-lg w-[400px] h-[380px] object-cover"
         />
       </div>
     </section>
