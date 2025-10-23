@@ -6,16 +6,16 @@ const data = {
       text1: "Web’i canlı hissettiriyorum.",
       description:
         "Tutkulu bir Frontend Developer’ım ve tasarımları hayata geçirmeyi seviyorum. Etkileşimli, responsive ve görsel olarak çekici web deneyimleri yaratmayı seviyorum. Üzerinde çalıştığım her proje, kullanıcıyı etkileyen, sezgisel ve akılda kalıcı olacak şekilde tasarlanır. Amacım, web’i canlı hissettirmek — bir komponent bir komponent.",
-      profileImage: "/src/assets/ProfileImage.png",
+      profileImage: "/assets/ProfileImage.png",
       socials: [
         {
-          logo: "/src/assets/LinkedIn.png",
+          logo: "/assets/LinkedIn.png",
           altText: "LinkedIn",
           text: "LinkedIn",
           link: "https://www.linkedin.com/in/ezgiasilsoy/",
         },
         {
-          logo: "/src/assets/github.png",
+          logo: "/assets/github.png",
           altText: "GitHub",
           text: "GitHub",
           link: "https://github.com/ezgiasilsoy",
@@ -78,13 +78,13 @@ const data = {
     },
     projects: {
       pr1: {
-        img: "/src/assets/spğizza.png",
+        img: "/assets/spğizza.png",
         name: "Statik Pizza Sitesi",
         description: "Sadece HTML ve CSS kullanılarak oluşturulmuş sabit bir pizza tanıtım sitesidir.",
         link: "https://github.com/ezgiasilsoy/Pizza-Restaurant-",
       },
       pr2: {
-        img: "/src/assets/fhs_2.jpg",
+        img: "/assets/fhs_2.jpg",
         name: "Dinamik Pizza Sitesi",
         description: "React ve JavaScript kullanılarak oluşturulmuş etkileşimli bir pizza sipariş uygulamasıdır.",
         link: "https://github.com/ezgiasilsoy/dinamic-pizza-site",
@@ -105,20 +105,20 @@ const data = {
       profileImage: "/src/assets/ProfileImage.png",
       socials: [
         {
-          logo: "/src/assets/LinkedIn.png",
+          logo: "/assets/LinkedIn.png",
           altText: "LinkedIn",
           text: "LinkedIn",
           link: "https://www.linkedin.com/in/ezgiasilsoy/",
         },
         {
-          logo: "/src/assets/github.png",
+          logo: "/assets/github.png",
           altText: "GitHub",
           text: "GitHub",
           link: "https://github.com/ezgiasilsoy",
         },
       ],
       skillSection: {
-  title: "Skills", // EN Başlık
+  title: "Skills",
   skills: [
     { 
       name: "HTML", 
@@ -174,13 +174,13 @@ const data = {
     },
     projects: {
       pr1: {
-        img: "src/assets/spğizza.png",
+        img: "/assets/spğizza.png",
         name: "Static Pizza Website",
         description: "A static pizza introduction website built using only HTML and CSS.",
         link: "https://github.com/ezgiasilsoy/Pizza-Restaurant-",
       },
       pr2: {
-        img: "src/assets/fhs_2.jpg",
+        img: "/assets/fhs_2.jpg",
         name: "Dynamic Pizza Website",
         description: "An interactive pizza ordering app built using React and JavaScript.",
         link: "https://github.com/ezgiasilsoy/dinamic-pizza-site",
