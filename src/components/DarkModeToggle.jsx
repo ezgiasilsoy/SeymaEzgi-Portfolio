@@ -41,7 +41,7 @@ function DarkModeToggle() {
         </div>
       </button>
 
-      <span className="font-bold font-[Inter] text-l text-[#777777] select-none">
+      <span className="font-bold  text-l dark:text-[#D9D9D9] text-[#777777] select-none">
         {dark ? "LIGHT MODE" : "DARK MODE"}
       </span>
     </div>

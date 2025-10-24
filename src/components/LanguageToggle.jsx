@@ -18,9 +18,9 @@ function LanguageToggle() {
     return (
         <div 
             onClick={toggleLanguage} 
-            className='text-l font-[Inter] font-extrabold text-[#777777] cursor-pointer'
+            className='text-l font-bold  text-[#777777] cursor-pointer dark:text-[#D9D9D9]'
         >
-            <span className='text-[#4731D3] font-bold'>{switchLangText}</span>
+            <span className='text-[#4731D3] dark:text-[#BAB2E7] '>{switchLangText}</span>
             {switchSuffix}
         </div>
     );
