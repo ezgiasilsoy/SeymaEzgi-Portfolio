@@ -14,8 +14,8 @@ const Projects = () => {
     const { projectsRef } = useScroll();
     
     return (
-        <section ref={projectsRef} className="container mx-auto px-4 md:px-20 py-16 bg-white dark:bg-gray-900">
-            <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-10">
+        <section ref={projectsRef} className="container mx-auto px-4 md:px-20 py-16 bg-white dark:bg-[#252128]">
+            <h2 className="text-4xl font-bold text-[#1F2937] dark:text-[#AEBCCF] mb-10">
                 {projectTitle}
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -24,20 +24,20 @@ const Projects = () => {
                     const tagsToUse = index === 0 ? staticTags : dynamicTags;
                     
                     return (
-                        <div key={index} className="flex flex-col bg-white dark:bg-gray-800">
+                        <div key={index} className="flex flex-col bg-white dark:bg-[#252128]">
                         
                             <div className="w-full h-48 overflow-hidden bg-gray-100 dark:bg-gray-700">
                                 <img 
-                                    src={project.img || "https://via.placeholder.com/400x300?text=Project+Image"} 
+                                    src={project.img } 
                                     alt={project.name} 
-                                    className="w-full h-full object-cover" 
+                                    className="w-full h-full object-cover " 
                                 />
                             </div>
 
                             <div className="pt-6 pb-8 flex-grow">
-                                <h3 className="text-2xl font-semibold text-[#4338CA] dark:text-white mb-2">{project.name}</h3>
+                                <h3 className="text-2xl font-semibold text-[#4338CA] dark:text-[#CFCBFF] mb-2">{project.name}</h3>
                                 
-                                <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm">
+                                <p className="text-gray-600 dark:text-white mb-4 text-sm">
                                     {project.description}
                                 </p>
                                 
@@ -45,7 +45,7 @@ const Projects = () => {
                                     {tagsToUse.map((tag, tagIndex) => (
                                         <span 
                                             key={tagIndex} 
-                                            className="text-xs font-semibold py-1 px-3 border border-[#3730A3] bg-white text-gray-800 dark:bg-gray-700 dark:text-gray-300"
+                                            className="text-xs font-semibold py-1 px-3 border border-[#3730A3] bg-white text-gray-800 dark:bg-[#252128] dark:border-[#8F88FF] dark:text-[#8F88FF]"
                                         >
                                             {tag}
                                         </span>

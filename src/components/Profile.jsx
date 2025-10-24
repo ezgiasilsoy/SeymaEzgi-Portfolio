@@ -17,16 +17,16 @@ const Profile = () => {
   };
 
   return (
-    <section className="mx-auto container px-6 md:px-20 py-16 bg-white dark:bg-gray-900">
-      <h2 className="text-2xl font-bold mb-6 border-b pb-2 text-gray-900 dark:text-white dark:border-gray-700">
+    <section className="container mx-auto px-6 md:px-20 py-16 bg-white dark:bg-[#252128]">
+      <h2 className="text-4xl font-bold mb-6 border-b pb-2 text-[#1F2937] dark:text-[#AEBCCF] dark:bg-[#252128]">
         {title}
       </h2>
       
       <div className="grid md:grid-cols-2 gap-10">
         <div>
-          <h3 className="text-xl font-semibold text-[#4338CA] mb-4 dark:text-indigo-400">{profileLabels.profileHeader}</h3>
+          <h3 className="text-2xl font-semibold text-[#4338CA] mb-4 dark:text-[#B7AAFF]">{profileLabels.profileHeader}</h3>
           
-          <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+          <ul className="space-y-2 text-l text-gray-500 dark:text-white">
             <li><strong>{profileLabels.birthDate}:</strong> {profile.birthDate}</li>
             <li><strong>{profileLabels.residence}:</strong> {profile.rezisdance}</li>
             <li><strong>{profileLabels.university}:</strong> {profile.university}</li>
@@ -35,9 +35,9 @@ const Profile = () => {
         </div>
 
         <div>
-          <h3 className="text-xl font-semibold text-[#4338CA] mb-4 dark:text-indigo-400">{about.aboutHeader}</h3>
+          <h3 className="text-xl font-semibold text-[#4338CA] mb-4 dark:text-[#B7AAFF]">{about.aboutHeader}</h3>
           
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{about.aboutText}</p>
+          <p className="text-gray-500 dark:text-white leading-relaxed">{about.aboutText}</p>
         </div>
       </div>
     </section>

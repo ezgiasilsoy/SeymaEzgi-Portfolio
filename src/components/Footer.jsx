@@ -12,18 +12,18 @@ const Footer = () => {
   const emailAddress = "ezgiseyma@gmail.com";
 
   return (
-    <footer className="mx-auto container px-6 md:px-20 py-16 bg-white dark:bg-gray-900">
+    <footer className="mx-auto container px-6 md:px-20 py-16 bg-white dark:bg-[#141414]">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end border-t border-gray-200 dark:border-gray-700 pt-10">
         
         <div className="mb-8 md:mb-0 max-w-xl">
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-snug">
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-[#AEBCCF] mb-6 leading-snug">
             {callToAction}
           </h2>
           <a
             href={`mailto:${emailAddress}`}
-            className="text-lg font-medium text-[#AF0C48] dark:[#AF0C48] hover:underline flex items-center"
+            className="text-lg font-medium text-[#AF0C48] dark:text-[#BAB2E7] dark:[#AF0C48] hover:underline flex items-center"
           >
-            <span className="inline-block w-3 h-3 bg-red-500 rounded-full mr-2"></span> 
+            <span className="inline-block w-3 h-3 bg-[#BAB2E7] rounded-full mr-2"></span> 
             {emailAddress}
           </a>
         </div>

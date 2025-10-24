@@ -15,10 +15,10 @@ const Header = ({ darkMode, setDarkMode }) => {
   };
 
   return (
-    <header className="flex flex-row items-center justify-between mx-auto container px-6 md:px-20 py-16 bg-white dark:bg-gray-900">
+    <header className="flex flex-row items-center justify-between mx-auto container px-6 md:px-20 py-16 bg-white dark:bg-[#252128]">
       
       <div className="flex items-center">
-        <div className="w-12 h-12 flex items-center justify-center rounded-full bg-[#EEEBFF] text-[#7B61FF] text-3xl italic font-bold shadow-lg hover:rotate-12 transition-transform duration-300 cursor-pointer select-none">
+        <div className="w-12 h-12 flex items-center mt-25 justify-center rounded-full dark:text-[#8F88FF] dark:bg-[#4731D3] bg-[#EEEBFF] text-[#7B61FF] text-3xl rotate-25 font-ariel shadow-lg hover:rotate-12 transition-transform duration-300 cursor-pointer select-none">
           Ş
         </div>
       </div>
@@ -29,7 +29,7 @@ const Header = ({ darkMode, setDarkMode }) => {
           <LanguageToggle/>
         </div>
 
-        <nav className="flex flex-row gap-15 items-center text-gray-800 dark:text-white">
+        <nav className="flex flex-row gap-15 items-center text-gray-800 dark:text-[#6B7280]">
           
           <button 
             onClick={() => scrollToSection(skillsRef)}
@@ -45,7 +45,7 @@ const Header = ({ darkMode, setDarkMode }) => {
             {navTexts.projects}
           </button>
           
-          <button className="border outline-1 border-[#3730A3] dark:border-white px-4 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+          <button className="border outline-1 border-[#3730A3] dark:border-white dark:bg-[#FFFFFF] dark:text-[#3730A3] px-4 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition">
             {navTexts.cta}
           </button>
         </nav>

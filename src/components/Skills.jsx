@@ -6,9 +6,9 @@ export default function Skills() {
   const { skillSection } = content.heroSection; 
 const { skillsRef } = useScroll();
   return (
-    <section ref={skillsRef} className="container mx-auto px-6 md:px-20 py-16 bg-white dark:bg-gray-900">
+    <section ref={skillsRef} className="container mx-auto px-6 md:px-20 py-16 bg-white dark:bg-[#252128]">
       
-      <h2 className="text-3xl font-bold mb-10 text-gray-900 dark:text-white">
+      <h2 className="text-4xl font-bold mb-10 text-[#1F2937] dark:text-[#AEBCCF]">
         {skillSection.title}
       </h2>
 
@@ -16,11 +16,11 @@ const { skillsRef } = useScroll();
         {skillSection.skills.map((skill, index) => (
           <div key={index} className="space-y-3">
             
-            <h3 className="text-[#4338CA] text-xl font-semibold dark:text-indigo-400">
+            <h3 className="text-[#4338CA] text-xl font-semibold dark:text-[#B7AAFF]">
               {skill.name}
             </h3>
             
-            <p className="text-gray-600 text-sm dark:text-gray-300">
+            <p className="text-gray-600 text-sm dark:text-white">
               {skill.text}
             </p>
           </div>
