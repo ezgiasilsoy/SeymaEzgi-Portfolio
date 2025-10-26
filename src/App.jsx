@@ -7,13 +7,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
-  useEffect(() => {
-    if (darkMode) document.documentElement.classList.add("dark");
-    else document.documentElement.classList.remove("dark");
-  }, [darkMode]);
-
+ 
   return (
     <div className="font-sans bg-gray-50 dark:bg-gray-900 min-h-screen transition-colors duration-300">
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
