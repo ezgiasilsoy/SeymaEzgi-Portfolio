@@ -1,10 +1,11 @@
 import { useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext"; // dosya yolunu kendi yapına göre ayarla
-import sunIcon from "../../public/assets/icons8-sun-32.png";
-import moonIcon from "../../public/assets/icons8-moon-24.png";
+import { ThemeContext } from "../context/ThemeContext"; 
 
 function DarkModeToggle() {
   const { darkMode, toggleTheme } = useContext(ThemeContext);
+  const sunIcon = "/assets/icons8-sun-32.png";
+const moonIcon = "/assets/icons8-moon-24.png";
+
 
   return (
     <div className="flex items-center space-x-3">

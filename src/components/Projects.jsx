@@ -62,13 +62,16 @@ const Projects = () => {
                                         {githubText}
                                     </a>
                                     <a 
-                                        href="#" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer" 
-                                        className="text-[#3730A3] dark:text-white font-medium text-sm hover:text-indigo-600 dark:hover:text-indigo-400 border-b border-gray-800 dark:border-white hover:border-indigo-600 pb-0.5"
-                                    >
-                                        {viewSiteText}
-                                    </a>
+  href={project.name === "Dinamik Pizza Sitesi" || project.name === "Dynamic Pizza Website" 
+        ? "https://dinamic-pizza-site.vercel.app/" 
+        : "#"} 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-[#3730A3] dark:text-white font-medium text-sm hover:text-indigo-600 dark:hover:text-indigo-400 border-b border-gray-800 dark:border-white hover:border-indigo-600 pb-0.5"
+>
+  {viewSiteText}
+</a>
+
                                 </div>
                             </div>
                         </div>
