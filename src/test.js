@@ -5,7 +5,7 @@ const data = {
       name: "Şeyma Ezgi ASILSOY",
       text1: "Web’i canlı hissettiriyorum.",
       description:
-        "Tutkulu bir Frontend Developer’ım ve tasarımları hayata geçirmeyi seviyorum. Etkileşimli, responsive ve görsel olarak çekici web deneyimleri yaratmayı seviyorum. Üzerinde çalıştığım her proje, kullanıcıyı etkileyen, sezgisel ve akılda kalıcı olacak şekilde tasarlanır. Amacım, web’i canlı hissettirmek — bir komponent bir komponent.",
+         "Fullstack Developer olarak modern ve ölçeklenebilir web uygulamaları geliştiriyorum. JavaScript, React, Redux, Tailwind CSS, Java, Spring Boot ve PostgreSQL teknolojileriyle hem frontend hem backend projeleri üretiyor; kullanıcı deneyimi ve performansı merkeze alarak çalışıyorum.",
       profileImage: "/assets/ProfileImage.png",
       socials: [
         {
@@ -59,6 +59,10 @@ const data = {
       altText: "Figma", 
       text: "Tasarım dosyalarını okuma, ölçüleri ve stilleri doğru bir şekilde yorumlayarak tasarımları koda aktarma deneyimi." 
     },
+    { name: "Java", altText: "Java", text: "Nesne yönelimli programlama prensiplerine hakimiyet." },
+        { name: "Spring Boot", altText: "Spring Boot", text: "REST API geliştirme, dependency injection, service-layer tasarımı." },
+        { name: "PostgreSQL", altText: "PostgreSQL", text: "Veritabanı modelleme, sorgu yazma ve performans odaklı veri yönetimi." },
+        { name: "Lombok", altText: "Lombok", text: "Kod tekrarını azaltan anotasyonlar (Getter, Setter, Builder) kullanımı." },
   ],
 },
     },
@@ -101,7 +105,7 @@ const data = {
       name: "Şeyma Ezgi ASILSOY",
       text1: "I make the web feel alive.",
       description:
-        "I’m a passionate Frontend Developer who loves bringing designs to life. I create interactive, responsive, and visually engaging web experiences that leave a lasting impression. Every project I work on is designed to be intuitive, user-focused, and memorable. My goal is simple — make the web feel alive, one component at a time.",
+        "I am a Fullstack Developer building modern and scalable web applications. I develop both frontend and backend systems using JavaScript, React, Redux, Tailwind CSS, Java, Spring Boot and PostgreSQL—while prioritizing clean architecture, performance, and seamless user experience.",
       profileImage: "/assets/ProfileImage.png",
       socials: [
         {
@@ -155,6 +159,10 @@ const data = {
       altText: "Figma", 
       text: "Experienced in interpreting design files, accurately translating measurements and styles into high-fidelity code." 
     },
+    { name: "Java", altText: "Java", text: "Strong OOP foundation and clean backend architecture approach." },
+        { name: "Spring Boot", altText: "Spring Boot", text: "REST API development, layered backend logic and DI usage." },
+        { name: "PostgreSQL", altText: "PostgreSQL", text: "Database modeling, querying and performance optimization." },
+        { name: "Lombok", altText: "Lombok", text: "Annotation-based code simplification reducing boilerplate." },
   ],
 },
     },
