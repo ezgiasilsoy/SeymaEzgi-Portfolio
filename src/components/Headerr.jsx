@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { useScroll } from '../context/ScrollContext'; 
 
 const Header = ({ darkMode, setDarkMode }) => {
-  const { content, language } = useLanguage(); 
+  const { language } = useLanguage(); 
   const { skillsRef, projectsRef, scrollToSection } = useScroll(); 
 
   const navTexts = {
@@ -15,41 +15,46 @@ const Header = ({ darkMode, setDarkMode }) => {
   };
 
   return (
-    <header className="flex flex-row items-center justify-between mx-auto container px-6 md:px-20 py-16 bg-white dark:bg-[#252128]">
-      
+    <header className="flex flex-row items-center justify-between container mx-auto px-4 md:px-16 py-6 
+                       bg-white dark:bg-[#252128] overflow-hidden">
+
+      {/* Logo */}
       <div className="flex items-center">
-        <div className="w-12 h-12 flex items-center mt-25 justify-center rounded-full dark:text-[#8F88FF] dark:bg-[#4731D3] bg-[#EEEBFF] text-[#7B61FF] text-3xl rotate-25 font-ariel shadow-lg hover:rotate-12 transition-transform duration-300 cursor-pointer select-none">
+        <div className="w-12 h-12 flex items-center justify-center rounded-full 
+                        dark:text-[#8F88FF] dark:bg-[#4731D3] bg-[#EEEBFF] text-[#7B61FF] 
+                        text-3xl font-ariel shadow-lg transition-transform duration-300 cursor-pointer select-none">
           Ş
         </div>
       </div>
 
-      <div className="flex flex-col items-end gap-6">
-        <div className="flex flex-row gap-10 items-center">
+      {/* Sağ taraf */}
+      <div className="flex flex-col items-end gap-4">
+
+        {/* Tema ve Dil toggle */}
+        <div className="flex flex-row items-center gap-4 whitespace-nowrap">
           <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
-          <LanguageToggle/>
+          <LanguageToggle />
         </div>
 
-        <nav className="flex flex-row gap-15 items-center text-gray-800 dark:text-[#6B7280]">
-          
-          <button 
-            onClick={() => scrollToSection(skillsRef)}
-            className="hover:underline"
-          >
+        {/* Navigation */}
+        <nav className="flex flex-row gap-4 sm:gap-6 items-center text-gray-800 dark:text-[#6B7280] whitespace-nowrap">
+
+          <button onClick={() => scrollToSection(skillsRef)} className="hover:underline">
             {navTexts.skills}
           </button>
-          
-          <button 
-            onClick={() => scrollToSection(projectsRef)}
-            className="hover:underline"
-          >
+
+          <button onClick={() => scrollToSection(projectsRef)} className="hover:underline">
             {navTexts.projects}
           </button>
-          
-          <button className="border outline-1 border-[#3730A3] dark:border-white dark:bg-[#FFFFFF] dark:text-[#3730A3] px-4 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+
+          <button className="border border-[#3730A3] dark:border-white dark:bg-white dark:text-[#3730A3]
+                             px-3 py-1 sm:px-4 sm:py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-200 
+                             transition font-semibold text-sm sm:text-base">
             {navTexts.cta}
           </button>
         </nav>
       </div>
+
     </header>
   );
 };
