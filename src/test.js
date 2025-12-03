@@ -72,7 +72,7 @@ const data = {
         birthDate: "28.07.1998",
         rezisdance: "Tekirdağ",
         university: "Ondokuzmayıs Ünv. İnşaat Mühendisliği",
-        preferenceRole: "Frontend Developer",
+        preferenceRole: "Fullstack Developer",
       },
       about: {
         aboutHeader: "Hakkımda",
@@ -172,12 +172,12 @@ const data = {
         birthDate: "28.07.1998",
         rezisdance: "Tekirdağ",
         university: "Ondokuzmayıs University, Civil Engineering",
-        preferenceRole: "Frontend Developer",
+        preferenceRole: "Fullstack Developer",
       },
       about: {
         aboutHeader: "About Me",
         aboutText:
-          "After graduating from Ondokuzmayıs University with a degree in Civil Engineering, I worked both in Turkey and abroad. However, I eventually realized that this wasn’t what I truly wanted and decided to switch careers. The excitement and joy I feel while coding confirmed that I made the right choice. I truly believe that with this passion and dedication, I will achieve great things in my new profession.",
+          "After graduating from Ondokuzmayis University with a degree in Civil Engineering, I worked both in Turkey and abroad. However, I eventually realized that this wasn’t what I truly wanted and decided to switch careers. The excitement and joy I feel while coding confirmed that I made the right choice. I truly believe that with this passion and dedication, I will achieve great things in my new profession.",
       },
     },
     projects: {
